@@ -66,9 +66,13 @@
         // Sets the default accordion element states based on the open option
         accordionSet: function($el, options) {
             if (options.open) {
-                $el.show();
+                $el.each(function() {
+                    $(this).show();
+                });
             } else {
-                $el.hide();
+                $el.each(function() {
+                    $(this).hide();
+                });
             }
         }
     };
