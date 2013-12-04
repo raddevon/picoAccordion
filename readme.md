@@ -32,5 +32,8 @@ This is a definition list, so I have three different pairs. In this example, my 
 
 Simple, right? Put that script at the bottom of the page just inside the closing `body` tag. This assumes you have already imported jQuery before you run this script. If not, it won't work.
 
+## License
+picoAccordion is freely available to use and modify under the MIT license.
+
 ## Thanks!
 That's about it. If you like and/or use this plugin, I'd love to hear from you [on Twitter](http://twitter.com/raddevon).
