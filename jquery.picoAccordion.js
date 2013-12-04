@@ -42,7 +42,7 @@
                 .each(function() {
                     $(this).css('cursor', 'pointer')
                 });
-            thisObject.widthTest(thisObject.accordionSet, $('dl').find('dd'), thisObject.options);
+            thisObject.widthTest(thisObject.accordionSet, $el.children('dd'), thisObject.options);
         },
 
         // Checks if the window is less than options.maxWidth wide before running the passed function
