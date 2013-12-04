@@ -58,7 +58,9 @@
 
         // Toggles the accordion element
         accordionToggle: function($el, options) {
-            $el.slideToggle();
+            $el.animate({
+                height: 'toggle'
+            }, options.duration)
         },
 
         // Sets the default accordion element states based on the open option
