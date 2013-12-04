@@ -37,10 +37,6 @@
                 // Binds the click on dt elements to toggle the adjacent element
                 .on('click', function(e){
                     thisObject.widthTest(thisObject.accordionToggle, $(this).next(), thisObject.options);
-                })
-                // Sets the hand pointer on each of the dt elements
-                .each(function() {
-                    $(this).css('cursor', 'pointer')
                 });
             thisObject.widthTest(thisObject.accordionSet, $el.children('dd'), thisObject.options);
         },
