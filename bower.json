@@ -1,0 +1,12 @@
+{
+  "name": "picoAccordion",
+  "version": "0.1.0",
+  "main": "jquery.picoAccordion.min.js",
+  "ignore": [
+    "*.sublime-*",
+    "demo.html"
+  ],
+  "dependencies": {
+    "jQuery": "~1.10.2"
+  }
+}
