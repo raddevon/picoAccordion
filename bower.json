@@ -1,6 +1,6 @@
 {
   "name": "picoAccordion",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "jquery.picoAccordion.min.js",
   "ignore": [
     "*.sublime-*",
