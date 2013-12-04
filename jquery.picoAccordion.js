@@ -33,7 +33,7 @@
             $el = $(this.element);
             thisObject = this;
 
-            $el.children('dt')
+            $el.addClass('accordion').children('dt')
                 // Binds the click on dt elements to toggle the adjacent element
                 .on('click', function(e){
                     thisObject.widthTest(thisObject.accordionToggle, $(this).next(), thisObject.options);
